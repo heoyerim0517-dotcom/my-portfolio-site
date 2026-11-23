@@ -23,7 +23,7 @@ function AboutMe() {
     >
       <Container maxWidth="md" sx={ { py: 4, px: { xs: 2, md: 3 } } }>
         <SectionCard
-          role="Section 03 · 자기소개"
+          role="Page · 자기소개"
           title="About Me"
           description="About Me 페이지가 개발될 공간입니다. 상세한 자기소개가 들어갈 예정입니다."
           isDark

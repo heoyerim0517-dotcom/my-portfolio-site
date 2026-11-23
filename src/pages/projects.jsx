@@ -23,7 +23,7 @@ function Projects() {
     >
       <Container maxWidth="md" sx={ { py: 4, px: { xs: 2, md: 3 } } }>
         <SectionCard
-          role="Section 04 · 포트폴리오 작품"
+          role="Page · 포트폴리오 작품"
           title="Projects"
           description="Projects 페이지가 개발될 공간입니다. 포트폴리오 작품들이 들어갈 예정입니다."
         />
