@@ -1,0 +1,68 @@
+/* 컬러 팔레트 CSS 변수 (출처: 컬러 팔레트 디자인 시스템.md) */
+:root {
+  /* Primary Colors */
+  --color-primary: #0D0D0D;
+  --color-primary-light: #333333;
+  --color-primary-dark: #000000;
+
+  /* Secondary Colors */
+  --color-secondary: #E1E0DC;
+  --color-accent: #C7C6C4;
+
+  /* Background Colors */
+  --color-bg-primary: #E1E0DC;
+  --color-bg-secondary: #F6F5F3;
+
+  /* Text Colors */
+  --color-text-primary: #0D0D0D;
+  --color-text-secondary: #444444;
+  --color-text-muted: #5C5B59;
+
+  /* Interactive Colors */
+  --color-button-primary: #0A0A0A;
+  --color-button-hover: #333333;
+  --color-link: #0D0D0D;
+  --color-link-hover: #5C5B59;
+
+  /* 보조 변수 */
+  --color-bg-dark: #0D0D0D;
+  --color-bg-badge: #E4E3DF;
+  --color-text-inverse: #FFFFFF;
+}
+
+/* CSS 초기화 */
+* {
+  box-sizing: border-box;
+}
+
+/* HTML, Body 초기화 */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+/* Root 앱 컨테이너 설정 */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
